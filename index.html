@@ -1,34 +1,44 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<h2>Felix Hernandez, MD, MMM</h2>
-<h3>Professor Emeritus of Surgery</h3> 
 
-<article>
-  <a target="_blank" href="images/IMG_0959.png">
-    <img src="images/IMG_0959.png" alt="Felix Hernandez, MD, MMM">
-  </a>
-  <p><em>Felix Hernandez, MD, MMM</em></p>
-</article>
+  <header>
+    <h1>Student Bio</h1>
+    
+  </header>
 
-<p>What is Lorem Ipsum?
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-<p>Why do we use it?
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</p>
-  
-<h3>Some Helpful Links</h3>
-  <ul>
-    <li><a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a></li>
-    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
-  </ul>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Felix Hernandez, MD, MMM, FACS</h2>
+        <h3>Professor Emeritus of Clinical Surgery</h3>
+        <h3>University of New England, College of Osteopathic Medicine</h3>
+                <img id="bio-image" src="../images/IMG_0959 (2).png" alt="Felix Hernandez, MD, MMM">
+      </section>
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h4>Contact Info</h4>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">felixhern1954@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="#">www.linkedin.com/in/felix-hernandez-md-mmm-facs-27621811</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
