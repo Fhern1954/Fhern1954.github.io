@@ -1,21 +1,21 @@
 h1 {
     text-align: center;
     color: white;
-    background-color: rgb(85, 195, 75);
+    background-color: darkgreen;
     font-size: 40px;
     font-family: Arial, sans-serif;
 }
 
 h2 {
     text-align: center;
-    color:blue;
+    color: darkblue;
     font-size: 30px;
     font-family: Arial, sans-serif;
 }
 
 h3 {
     text-align: center;
-    color:blue;
+    color:darkblue;
     font:italic;
     font-size: 15px;
     font-family: Arial, sans-serif;
